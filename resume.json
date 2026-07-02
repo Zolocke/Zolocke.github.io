@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-01",
+    "last_updated": "2026-07-02",
     "update_frequency": "quarterly",
     "source_of_truth": true,
     "notes": "Manually maintained. Refresh from LinkedIn quarterly; GitHub section is auto-polled separately."
@@ -14,6 +14,7 @@
   "contact": {
     "email": "zachdenny18@gmail.com",
     "github": "https://github.com/Zolocke",
+    "linkedin": "https://www.linkedin.com/in/odennihy",
     "x": "",
     "reddit": "",
     "note": "Phone number and exact address intentionally excluded from public site."
@@ -98,62 +99,33 @@
       ]
     },
     {
-      "company": "Rocky Mountain Twist",
-      "location": "Montana",
+      "company": "Jore Corporation / Rocky Mountain Twist",
+      "location": "Ronan, Montana",
       "roles": [
         {
           "title": "Manufacturing Machine Operator",
           "start": "September 2016",
           "end": "June 2017",
           "description": "Operated and maintained 6-12 machines cutting precision drill bits. Interpreted job orders, adjusted machine settings, conducted product inspections, performed routine maintenance, and measured/weighed parts with precision."
-        }
-      ]
-    },
-    {
-      "company": "Jore Corporation",
-      "location": "Ronan, Montana",
-      "roles": [
+        },
         {
-          "title": "Machine Operator",
+          "title": "Machine Operator (CNC)",
           "start": "2016",
           "end": "2016",
           "description": "Operated and maintained CNC machines, lathes, mills, and presses. Followed blueprints and work orders for production setup, monitored operations for issues, and maintained quality/production records."
         }
-      ]
+      ],
+      "note": "Concurrently held a second role at Rim Rock Bullets Inc. during this period."
     },
     {
       "company": "Rim Rock Bullets Inc.",
       "location": "Ronan, Montana",
       "roles": [
         {
-          "title": "Bullet-Slug-Casting-Machine Operator",
+          "title": "Casting Machine Operator (Concurrent)",
           "start": "2016",
           "end": "2016",
-          "description": "Operated and inspected molten lead casting equipment. Completed safety training for lead, tin, and wax materials handling."
-        }
-      ]
-    },
-    {
-      "company": "Taco Bell",
-      "location": "Billings, Montana",
-      "roles": [
-        {
-          "title": "Shift Manager",
-          "start": "August 2015",
-          "end": "August 2016",
-          "description": "Trained and managed a 4-12 person team in food and service. Maintained sanitation/food subsidy records, scheduled deliveries and verified quality/quantity, and monitored budgets and financial transactions."
-        }
-      ]
-    },
-    {
-      "company": "Speedway Convenience Store",
-      "location": "Spokane, Washington",
-      "roles": [
-        {
-          "title": "Convenience Store Clerk",
-          "start": "November 2014",
-          "end": "September 2015",
-          "description": "Handled customer transactions, maintained store cleanliness, verified age-restricted purchases, and monitored fuel pumps."
+          "description": "Second job held concurrently while at Jore/RMT. Operated and inspected molten lead casting equipment. Completed safety training for lead, tin, and wax materials handling."
         }
       ]
     },
@@ -203,28 +175,16 @@
     }
   ],
   "skills_full_list": [
-    "Heavy Equipment Operation",
-    "Computer Networking",
-    "Robotics",
-    "Food Industry Operations",
-    "Military Experience",
-    "Technical Support",
-    "Hand Tools",
-    "Assembly",
-    "Mechanical Knowledge",
-    "Forklift Operation",
-    "Programmable Logic Controllers (PLC)",
-    "Leadership",
-    "Restaurant Management",
-    "Electrical Experience",
-    "Team Management",
-    "Vehicle Maintenance",
-    "Computer Skills",
-    "Quality Control",
-    "Power Tools",
-    "Management",
     "Python (Programming Language)",
-    "System Administration"
+    "System Administration",
+    "Robotics",
+    "Programmable Logic Controllers (PLC)",
+    "Mechanical Knowledge",
+    "Heavy Equipment Operation",
+    "Leadership",
+    "Team Management",
+    "Computer Networking",
+    "Military Experience"
   ],
   "github_projects_note": "GitHub repos are polled live via API (see automation script) rather than hardcoded here. See github_config below.",
   "github_config": {
