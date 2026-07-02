@@ -58,7 +58,7 @@
   "experience": [
     {
       "company": "Symbotic",
-      "location": "Centralia, Washington",
+      "location": "Washington, USA",
       "roles": [
         {
           "title": "Automation System Operator",
@@ -76,7 +76,7 @@
     },
     {
       "company": "Aquatic Bath",
-      "location": "Yelm, Washington",
+      "location": "Washington, USA",
       "roles": [
         {
           "title": "Warehouse Associate",
@@ -88,7 +88,7 @@
     },
     {
       "company": "Walter Enterprises",
-      "location": "Lewis County, Washington",
+      "location": "Washington, USA",
       "roles": [
         {
           "title": "Restaurant General Manager",
@@ -100,7 +100,7 @@
     },
     {
       "company": "Jore Corporation / Rocky Mountain Twist",
-      "location": "Ronan, Montana",
+      "location": "Montana, USA",
       "roles": [
         {
           "title": "Manufacturing Machine Operator",
@@ -119,7 +119,7 @@
     },
     {
       "company": "Rim Rock Bullets Inc.",
-      "location": "Ronan, Montana",
+      "location": "Montana, USA",
       "roles": [
         {
           "title": "Casting Machine Operator (Concurrent)",
@@ -131,7 +131,7 @@
     },
     {
       "company": "Pacific Steel and Recycling",
-      "location": "Williston, North Dakota",
+      "location": "North Dakota, USA",
       "roles": [
         {
           "title": "Heavy Equipment Operator / Warehouse Associate / Recycling Specialist",
