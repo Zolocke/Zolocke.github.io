@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "last_updated": "2026-07-01",
+    "update_frequency": "quarterly",
+    "source_of_truth": true,
+    "notes": "Manually maintained. Refresh from LinkedIn quarterly; GitHub section is auto-polled separately."
+  },
+  "profile": {
+    "name": "Zachary Odennihy",
+    "headline": "Automation System Operator | Robotics | AI Engineering Student",
+    "location": "Washington State, United States",
+    "summary": "Versatile technical professional with 15+ years of experience spanning robotics automation, heavy equipment operation, production management, and military vehicle operations. Currently expanding into AI/software engineering while operating and maintaining robotic fleet systems, PLC safety devices, conveyors, and ABB robotic arms at Symbotic. Proven leadership background as a Restaurant General Manager and Shift Manager, with a foundation in disciplined operations from six years of Army National Guard service, including an overseas deployment to Iraq."
+  },
+  "contact": {
+    "email": "zachdenny18@gmail.com",
+    "github": "https://github.com/Zolocke",
+    "x": "",
+    "reddit": "",
+    "note": "Phone number and exact address intentionally excluded from public site."
+  },
+  "top_skills": [
+    "System Administration",
+    "Python (Programming Language)",
+    "Robotics & PLC Safety Systems",
+    "Organization & Leadership",
+    "Heavy Equipment Operation",
+    "Team Management & Training"
+  ],
+  "certifications": [
+    {
+      "name": "Google IT Support Certificate",
+      "issuer": "Google (via Coursera)",
+      "date": "September 2023 - Present",
+      "link": "https://coursera.org/share/8fef27b4ac2e48d7c99e6c3ff9b8e4b4"
+    },
+    {
+      "name": "Introduction to Programming Using Python",
+      "issuer": "Coursera",
+      "date": ""
+    },
+    {
+      "name": "US Secret Clearance",
+      "issuer": "U.S. Department of Defense",
+      "date": "2007 - 2016"
+    },
+    {
+      "name": "Forklift Operator Certification",
+      "issuer": "",
+      "date": "July 2009 - July 2014"
+    },
+    {
+      "name": "Food Handler Certification",
+      "issuer": "",
+      "date": ""
+    }
+  ],
+  "experience": [
+    {
+      "company": "Symbotic",
+      "location": "Centralia, Washington",
+      "roles": [
+        {
+          "title": "Automation System Operator",
+          "start": "July 2025",
+          "end": "Present",
+          "description": "Promoted into fleet/system operator role. Working closely with system engineers, trainers, and management to operate, maintain, and repair conveyors, PLC safety devices, Rovers, and ABB robotic arms under Lock Out Tag Out (LOTO) requirements."
+        },
+        {
+          "title": "Robotics Operator",
+          "start": "May 2024",
+          "end": "August 2025",
+          "description": "Started as a Robotic Cell Operator depalletizing and building/stacking ready-to-ship pallets. Took on training responsibilities, time management duties, and cross-trained toward the System Operator/fleet manager role. Collaborated with engineers to optimize robot programming and workflows using sensor data."
+        }
+      ]
+    },
+    {
+      "company": "Aquatic Bath",
+      "location": "Yelm, Washington",
+      "roles": [
+        {
+          "title": "Warehouse Associate",
+          "start": "August 2023",
+          "end": "May 2024",
+          "description": "Operated assembly line with a team on framing, packaging, and equipment installation. Coordinated across multiple teams to maintain product traffic flow and navigated warehouse/yard operations to transport large, heavy products while keeping pace with assembly line output."
+        }
+      ]
+    },
+    {
+      "company": "Walter Enterprises",
+      "location": "Lewis County, Washington",
+      "roles": [
+        {
+          "title": "Restaurant General Manager",
+          "start": "July 2017",
+          "end": "July 2023",
+          "description": "Directed daily operations for a store from opening day, scaling to 150-300 customers/day by year two. Responsible for hiring, staff training, inventory management, cash flow, and quality standards. Managed equipment issues, staff conflicts, and customer complaints while cross-training with other store managers."
+        }
+      ]
+    },
+    {
+      "company": "Rocky Mountain Twist",
+      "location": "Montana",
+      "roles": [
+        {
+          "title": "Manufacturing Machine Operator",
+          "start": "September 2016",
+          "end": "June 2017",
+          "description": "Operated and maintained 6-12 machines cutting precision drill bits. Interpreted job orders, adjusted machine settings, conducted product inspections, performed routine maintenance, and measured/weighed parts with precision."
+        }
+      ]
+    },
+    {
+      "company": "Jore Corporation",
+      "location": "Ronan, Montana",
+      "roles": [
+        {
+          "title": "Machine Operator",
+          "start": "2016",
+          "end": "2016",
+          "description": "Operated and maintained CNC machines, lathes, mills, and presses. Followed blueprints and work orders for production setup, monitored operations for issues, and maintained quality/production records."
+        }
+      ]
+    },
+    {
+      "company": "Rim Rock Bullets Inc.",
+      "location": "Ronan, Montana",
+      "roles": [
+        {
+          "title": "Bullet-Slug-Casting-Machine Operator",
+          "start": "2016",
+          "end": "2016",
+          "description": "Operated and inspected molten lead casting equipment. Completed safety training for lead, tin, and wax materials handling."
+        }
+      ]
+    },
+    {
+      "company": "Taco Bell",
+      "location": "Billings, Montana",
+      "roles": [
+        {
+          "title": "Shift Manager",
+          "start": "August 2015",
+          "end": "August 2016",
+          "description": "Trained and managed a 4-12 person team in food and service. Maintained sanitation/food subsidy records, scheduled deliveries and verified quality/quantity, and monitored budgets and financial transactions."
+        }
+      ]
+    },
+    {
+      "company": "Speedway Convenience Store",
+      "location": "Spokane, Washington",
+      "roles": [
+        {
+          "title": "Convenience Store Clerk",
+          "start": "November 2014",
+          "end": "September 2015",
+          "description": "Handled customer transactions, maintained store cleanliness, verified age-restricted purchases, and monitored fuel pumps."
+        }
+      ]
+    },
+    {
+      "company": "Pacific Steel and Recycling",
+      "location": "Williston, North Dakota",
+      "roles": [
+        {
+          "title": "Heavy Equipment Operator / Warehouse Associate / Recycling Specialist",
+          "start": "June 2012",
+          "end": "August 2014",
+          "description": "Operated and maintained forklifts, excavators, front loaders, shearing machines, and cardboard/scrap metal balers. Built and loaded/unloaded pallet orders for shipment. Graded ferrous and non-ferrous materials."
+        }
+      ]
+    }
+  ],
+  "military_service": {
+    "branch": "Idaho Army National Guard",
+    "unit": "116th Cavalry Brigade Combat Team",
+    "rank": "E4 (Specialist)",
+    "mos": "88M - Wheeled Vehicle Operator",
+    "service_period": "August 2008 - August 2016",
+    "deployment": {
+      "operation": "Operation New Dawn",
+      "location": "Iraq",
+      "type": "Overseas / In-Theater Deployment"
+    },
+    "additional_qualifications": [
+      "Certified in Remote Weapons Systems"
+    ],
+    "description": "Operated wheeled vehicles and equipment over varied terrain and roadways. Managed loading, unloading, and safety of personnel being transported. Identified, corrected, and reported vehicle deficiencies. Prepared vehicles for movement/shipment by air, rail, or vessel. Completed a deployment overseas to Iraq in support of Operation New Dawn."
+  },
+  "education": [
+    {
+      "institution": "Maestro College",
+      "credential": "AAS, AI Engineering",
+      "start": "September 2025",
+      "end": "August 2027",
+      "status": "In Progress"
+    },
+    {
+      "institution": "Vallivue High School",
+      "credential": "High School Diploma",
+      "start": "2005",
+      "end": "2009",
+      "status": "Completed"
+    }
+  ],
+  "skills_full_list": [
+    "Heavy Equipment Operation",
+    "Computer Networking",
+    "Robotics",
+    "Food Industry Operations",
+    "Military Experience",
+    "Technical Support",
+    "Hand Tools",
+    "Assembly",
+    "Mechanical Knowledge",
+    "Forklift Operation",
+    "Programmable Logic Controllers (PLC)",
+    "Leadership",
+    "Restaurant Management",
+    "Electrical Experience",
+    "Team Management",
+    "Vehicle Maintenance",
+    "Computer Skills",
+    "Quality Control",
+    "Power Tools",
+    "Management",
+    "Python (Programming Language)",
+    "System Administration"
+  ],
+  "github_projects_note": "GitHub repos are polled live via API (see automation script) rather than hardcoded here. See github_config below.",
+  "github_config": {
+    "username": "Zolocke",
+    "poll_frequency": "quarterly (aligned with resume.json refresh)"
+  }
+}
