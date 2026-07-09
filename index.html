@@ -255,7 +255,7 @@
     </div>
 
     <div class="max-w-7xl mx-auto px-8 pb-12 text-xs text-muted">
-        LIVING RESUME — DATA FROM resume.json + LIVE GITHUB API — LAST UPDATED: <span id="lastUpdated">—</span>
+        LIVING RESUME — DATA FROM Assets/resume.json + LIVE GITHUB API — LAST UPDATED: <span id="lastUpdated">—</span>
     </div>
 
     <script>
@@ -294,17 +294,17 @@
             localStorage.setItem(THEME_KEY, next);
         });
 
-        // ============ LOAD RESUME.JSON (source of truth) ============
+        // ============ LOAD RESUME DATA (source of truth) ============
         async function loadResume() {
             try {
-                const res = await fetch('resume.json');
+                const res = await fetch('Assets/resume.json');
                 const data = await res.json();
                 renderResume(data);
                 loadGitHub(data.github_config.username);
             } catch (err) {
-                console.error('Failed to load resume.json', err);
+                console.error('Failed to load Assets/resume.json', err);
                 document.getElementById('summaryText').textContent =
-                    'Unable to load resume.json — if viewing locally via file://, run a local server (e.g. `python3 -m http.server`) since browsers block fetch() on file:// URLs.';
+                    'Unable to load Assets/resume.json — if viewing locally via file://, run a local server (e.g. `python3 -m http.server`) since browsers block fetch() on file:// URLs.';
             }
         }
 

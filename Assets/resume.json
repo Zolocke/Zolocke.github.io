@@ -189,6 +189,6 @@
   "github_projects_note": "GitHub repos are polled live via API (see automation script) rather than hardcoded here. See github_config below.",
   "github_config": {
     "username": "Zolocke",
-    "poll_frequency": "quarterly (aligned with resume.json refresh)"
+    "poll_frequency": "quarterly (aligned with Assets/resume.json refresh)"
   }
 }
