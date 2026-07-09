@@ -1,0 +1,152 @@
+/* ============ THEME VARIABLES ============ */
+:root {
+    /* Autumn Night (dark) — default */
+    --bg: #17110D;
+    --bg-elevated: #211812;
+    --card-bg: #241A14;
+    --border: #4A3423;
+    --border-hover: #7A5636;
+    --text: #F0E4D4;
+    --text-muted: #A8876F;
+    --accent: #E67E22;
+    --accent-strong: #F59E0B;
+    --accent-gold: #C9962C;
+    --success-bg: rgba(74, 155, 92, 0.12);
+    --success-text: #7FBF8C;
+    --nav-hover: #F59E0B;
+}
+
+html[data-theme="light"] {
+    /* Orange Creamsicle (light) */
+    --bg: #FFF3E4;
+    --bg-elevated: #FFFFFF;
+    --card-bg: #FFFDFB;
+    --border: #FFD3A8;
+    --border-hover: #FF9F5A;
+    --text: #4A2E1A;
+    --text-muted: #A8654A;
+    --accent: #FF7A30;
+    --accent-strong: #FF5A1F;
+    --accent-gold: #E08A2A;
+    --success-bg: rgba(46, 143, 78, 0.12);
+    --success-text: #2E8F4E;
+    --nav-hover: #FF5A1F;
+}
+
+* {
+    transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease;
+}
+
+body {
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+    background: var(--bg);
+    color: var(--text);
+}
+
+.terminal-header {
+    font-family: 'Segoe UI', 'Trebuchet MS', Arial, sans-serif;
+}
+
+.dash-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+}
+
+.dash-card:hover {
+    border-color: var(--border-hover);
+}
+
+.metric {
+    font-family: 'Space Mono', monospace;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.section-header {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: var(--text-muted);
+    margin-bottom: 12px;
+}
+
+.nav-item {
+    transition: color 0.1s ease;
+}
+
+.nav-item:hover {
+    color: var(--nav-hover);
+}
+
+.text-accent {
+    color: var(--accent-strong);
+}
+
+.text-muted {
+    color: var(--text-muted);
+}
+
+.border-theme {
+    border-color: var(--border);
+}
+
+.bg-elevated {
+    background: var(--bg-elevated);
+}
+
+.skill-pill {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+}
+
+.status-pill {
+    background: var(--success-bg);
+    color: var(--success-text);
+}
+
+/* Theme toggle switch */
+.theme-toggle {
+    width: 52px;
+    height: 28px;
+    border-radius: 14px;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.theme-toggle .knob {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--accent-strong);
+    position: absolute;
+    left: 3px;
+    transition: left 0.25s ease, background 0.25s ease;
+}
+
+html[data-theme="light"] .theme-toggle .knob {
+    left: 29px;
+}
+
+.repo-link {
+    color: var(--accent-strong);
+}
+
+.repo-link:hover {
+    text-decoration: underline;
+}
+
+.skeleton {
+    background: linear-gradient(90deg, var(--border) 25%, var(--card-bg) 50%, var(--border) 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
