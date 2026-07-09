@@ -140,6 +140,23 @@ html[data-theme="light"] .theme-toggle .knob {
     text-decoration: underline;
 }
 
+/* Featured project cards (hosted on this site) */
+a.project-card-link {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+a.project-card-link:hover {
+    border-color: var(--border-hover);
+}
+
+a.project-card-link:focus-visible {
+    outline: 2px solid var(--accent-strong);
+    outline-offset: 2px;
+}
+
 .skeleton {
     background: linear-gradient(90deg, var(--border) 25%, var(--card-bg) 50%, var(--border) 75%);
     background-size: 200% 100%;
