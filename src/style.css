@@ -13,6 +13,7 @@
   --success-text: #7fbf8c;
   --overlay: rgba(0, 0, 0, 0.7);
   --row-icon-bg: #3a321e;
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
 }
 
 html[data-theme="light"] {
@@ -61,6 +62,13 @@ body {
 .console-header {
   background: var(--bg-elevated);
   border-bottom: 1px solid var(--border);
+}
+
+.brand-name {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
 }
 
 .nav-item {
@@ -221,33 +229,201 @@ html[data-theme="light"] .theme-toggle .knob {
   text-decoration: underline;
 }
 
+.btn-linkedin {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.85rem;
+  border-radius: 999px;
+  background: var(--accent-strong);
+  color: #1a1512;
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-decoration: none;
+  white-space: nowrap;
+  border: none;
+}
+
+html[data-theme="light"] .btn-linkedin {
+  color: #fff;
+}
+
+.btn-linkedin:hover {
+  filter: brightness(1.08);
+}
+
+.btn-ghost-sm {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.75rem;
+  background: var(--bg);
+  white-space: nowrap;
+}
+
+.btn-ghost-sm:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.contact-chip-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: center;
+}
+
+.chip-filter {
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-muted);
+  border-radius: 999px;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.7rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.chip-filter.active,
+.chip-filter:hover {
+  border-color: var(--accent-strong);
+  color: var(--accent);
+  background: var(--row-icon-bg);
+}
+
+.icon-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 0.75rem;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.icon-btn:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
 .hidden {
   display: none !important;
 }
 
-/* Mobile: stack panels */
-@media (max-width: 900px) {
-  .console-shell {
-    flex-direction: column !important;
+/* Desktop defaults */
+.desktop-only {
+  display: none;
+}
+
+.mobile-only {
+  display: flex;
+}
+
+.sidebar-left,
+.sidebar-right {
+  display: none;
+}
+
+.mobile-filter-row {
+  display: flex;
+}
+
+.mobile-inspector-sheet {
+  display: none;
+}
+
+.mobile-inspector-sheet.open {
+  display: flex;
+}
+
+@media (min-width: 901px) {
+  .desktop-only {
+    display: flex;
+  }
+
+  .mobile-only {
+    display: none !important;
   }
 
   .sidebar-left,
   .sidebar-right {
-    width: 100% !important;
-    max-height: 40vh;
-    border-right: none !important;
-    border-left: none !important;
+    display: flex;
   }
 
-  .sidebar-left {
-    border-bottom: 1px solid var(--border);
-  }
-
-  .sidebar-right {
-    border-top: 1px solid var(--border);
-  }
-
-  .search-trigger {
+  .mobile-filter-row {
     display: none !important;
+  }
+
+  .mobile-inspector-sheet,
+  .mobile-inspector-sheet.open {
+    display: none !important;
+  }
+}
+
+/* Mobile layout: single column, no stacked 3-pane mess */
+@media (max-width: 900px) {
+  body {
+    overflow: auto;
+  }
+
+  .app-root {
+    height: auto !important;
+    min-height: 100%;
+    overflow: visible !important;
+  }
+
+  .console-shell {
+    flex-direction: column !important;
+    overflow: visible !important;
+    flex: 1 1 auto !important;
+  }
+
+  .main-pane {
+    overflow: visible !important;
+    flex: 1 1 auto !important;
+  }
+
+  .list-scroll {
+    overflow: visible !important;
+    flex: none !important;
+  }
+
+  /* Bottom sheet inspector */
+  .mobile-inspector-backdrop {
+    position: fixed;
+    inset: 0;
+    background: var(--overlay);
+    z-index: 40;
+  }
+
+  .mobile-inspector-sheet.open {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 50;
+    max-height: min(78vh, 640px);
+    flex-direction: column;
+    border-top: 1px solid var(--border);
+    border-radius: 1.25rem 1.25rem 0 0;
+    background: var(--bg-elevated);
+    box-shadow: 0 -12px 40px rgba(0, 0, 0, 0.35);
+    padding-bottom: var(--safe-bottom);
+  }
+
+  .sheet-handle {
+    width: 40px;
+    height: 4px;
+    border-radius: 999px;
+    background: var(--border);
+    margin: 0.55rem auto 0.25rem;
   }
 }
