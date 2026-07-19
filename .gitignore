@@ -1,0 +1,14 @@
+# Dependencies & build
+node_modules/
+dist/
+.DS_Store
+
+# Local Vite cache
+.vite/
+
+# Editor
+*.swp
+*.swo
+
+# Backup from migration
+index.html.bak

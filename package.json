@@ -1,12 +1,13 @@
 {
-  "name": "vite-tmp",
+  "name": "zolocke-github-io",
   "private": true,
-  "version": "0.0.0",
+  "version": "2.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "dev": "node scripts/ensure-source-index.mjs && vite",
+    "build": "node scripts/ensure-source-index.mjs && tsc && vite build",
+    "preview": "vite preview",
+    "deploy:prepare": "npm run build && node scripts/prepare-pages.mjs"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.3.3",
