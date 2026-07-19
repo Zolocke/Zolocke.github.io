@@ -227,7 +227,10 @@ Breakpoint: **`900px`** — desktop shell vs mobile sheet. Change carefully; bot
 
 ## Related docs in-repo
 
-- **[STRUCTURE.md](./STRUCTURE.md)** — invariants checklist before any polish PR  
+- **[STRUCTURE.md](./STRUCTURE.md)** — polish guide + invariants checklist before any polish PR  
+- **[docs/2026-07-19_option-b-decision.md](./docs/2026-07-19_option-b-decision.md)** — Option B decision (historical; accepted)  
 - **[paper-game/README.md](./paper-game/README.md)** — game-specific notes  
+
+**Single home for this project:** this git repo. Do not leave active plans under `workspace/.hermes/plans/` for the personal site.
 
 When polishing with an agent: point them at **this README + STRUCTURE.md** and say “do not change product decisions or mobile architecture without asking.”
